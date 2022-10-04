@@ -1,0 +1,51 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1920px;
+    font-size: 10px;
+}
+
+/* Form Styles */
+
+main form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 5rem auto
+}
+
+main form label {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+main form label span {
+    color: red;
+}
+
+main form div {
+    display: flex;
+    gap: 1rem;
+}
+
+#name,
+#email {
+    padding: 1rem 18% 1rem 0;
+}
+
+input[type="submit"] {
+    margin-top: 2rem;
+    background-color: rgb(3, 89, 146);
+    padding: 1rem;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(11, 11, 76);
+}
