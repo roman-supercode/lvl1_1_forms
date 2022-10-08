@@ -15,7 +15,7 @@ html {
 main form {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     margin: 5rem auto
 }
 
@@ -34,9 +34,15 @@ main form div {
     gap: 1rem;
 }
 
+
 #name,
 #email {
-    padding: 1rem 18% 1rem 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+#nachricht {
+    resize: vertical;
 }
 
 input[type="submit"] {
